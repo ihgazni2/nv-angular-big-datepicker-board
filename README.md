@@ -47,11 +47,11 @@ _(stackblitz example)_
  
 ### view
          
-![](/Images/all.png) 
+![](https://raw.githubusercontent.com/navegador5/nv-angular-big-datepicker-board/master/Images/all.png) 
 
 ### slcted 
          
-![](/Images/slcted.png) 
+![](https://raw.githubusercontent.com/navegador5/nv-angular-big-datepicker-board/master/Images/slcted.png) 
 
 
 ### the slcted element format as below
