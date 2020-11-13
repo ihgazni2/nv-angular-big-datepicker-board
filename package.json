@@ -1,0 +1,14 @@
+{
+  "name": "big-datepicker-board",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^10.0.11",
+    "@angular/core": "^10.0.11",
+    "@angular/material": "^11.0.0",
+    "jsnoz": "^1.6.6",
+    "small-grid-table": "^0.1.1"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  }
+}

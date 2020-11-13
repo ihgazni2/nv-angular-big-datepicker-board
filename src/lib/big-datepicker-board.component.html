@@ -1,0 +1,10 @@
+<nv-small-grid-table [dtb]="_dtb" [width]="cell_width" ratio="4:5" [dflt]="false">
+	<ng-template let-cell #smallGridTableSlot>
+		<mat-card style="width:80%;height:80%;">
+			<mat-calendar [(selected)]="cell.data.selected" [id]="cell.data.id" [(minDate)]="cell.data.minDate"
+				[(maxDate)]="cell.data.maxDate" class="fixed-month" (_userSelection)="on_user_slct($event,cell)"
+				[dateClass]="_date_cls">
+			</mat-calendar>
+		</mat-card>
+	</ng-template>
+</nv-small-grid-table>
